@@ -1,0 +1,179 @@
+
+/*--- content-about ----*/
+.content-about-text
+{
+	position:relative;
+}
+.content-about h2
+{
+	text-align:center;
+	color:#676767;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing:2px;
+	font-size:45px;
+	margin: 10% 0;
+}
+.content-about small
+{
+	color:#1eabe7;
+	font-size:45px;
+}
+.content-about span
+{
+	background:url(../images/aboutbg.png);
+	position:absolute;
+	width:297px;
+	height:114;
+	top: -67%;
+	right: 37%;
+}
+.content-about-grid-left img
+{
+	width:100%;
+}
+.content-about-grid-right {
+padding-left:31px;
+}
+.content-about-grid-right p
+{
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+	color: #8D8D8D;
+	line-height: 33px;
+	width: 92%;
+	padding-left:20px;
+}
+.learn 
+{
+	margin-top: 17%;
+	padding-left:20px;
+        height:100px;
+}
+.learn a
+{
+        
+	background: #f51818;
+	//border-bottom: solid 5px #f51818;
+	border-radius: 3px;
+	padding:1em 3em;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	color:#FFFFFF;
+}
+.learn a:hover
+{
+	color:white;
+	text-decoration:none;
+	background: #1eabe7;
+	//border: solid 2px black;
+	//border-top: solid 5px black;
+	border-radius: 3px;
+	padding:1em 3em; 
+	box-shadow:3px 3px 3px gray;
+}
+.content-about-bottom
+{
+	background:url(../images/quotebg.png) no-repeat 0px 0px;
+	background-size:cover;
+}
+.content-about-bottom-text
+{
+	text-align:center;
+	padding: 8% 0;
+}
+.content-about-bottom-text p
+{
+	font-family: 'Lato', sans-serif;
+	font-size: 44px;
+	color: #FFFFFF;
+	font-weight: 300;
+	margin:2% 0 0 0;
+}
+/*--- content-team ----*/
+.content-team-text 
+{
+	position: relative;
+}
+.content-team-text h2
+{
+	text-align: center;
+	color: #676767;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 2px;
+	font-size: 45px;
+	margin: 13% 0;
+}
+.content-team small 
+{
+	color: #1EABE7;
+	font-size: 45px;
+}
+.content-team span 
+{
+	background: url(../images/aboutbg.png);
+	position: absolute;
+	width: 297px;
+	height: 114;
+	top: -67%;
+	right: 37%;
+}
+
+.team-left-grid
+{
+	text-align:center;
+	position:relative;
+}
+.team-left-grid img
+{
+	border-radius:50%;
+	margin-bottom: 15%;
+}
+.team-left-grid h2
+{
+	color:#484848;
+	font-family: 'Lato', sans-serif;
+	font-size: 26px;
+}
+.team-left-grid p
+{
+	color:#B6B6B6;
+	font-family: 'Lato', sans-serif;
+	font-weight:400;
+	font-size:18px;		
+	margin-bottom: 7%;
+}
+/*--- team-icons ----*/
+
+.learn {
+margin-top: 6%;
+padding-left: 0px;
+}
+.learn a {
+padding: 0.5em 1.5em;
+}
+.learn a:hover {
+padding: 0.5em 1.5em;
+}
+.team-left-grid img,.team-left-grid p {
+margin-bottom: 0%;
+}
+.team-icon-grid {
+width: 13%;
+padding-top:1em;
+}
+
+.content-about-bottom-text p {
+font-size: 30px;
+}
+.content-team span {
+right: 30%;
+}
+
+.learn {
+margin: 9% 0;
+}
+.learn a {
+font-size: 15px;
+}
+}
