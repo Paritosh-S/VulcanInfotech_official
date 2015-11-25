@@ -1,0 +1,218 @@
+/*--start-team--*/
+.team{
+	padding:6em 0px;
+
+	background:#f6f6f6;
+}
+.team-top{
+	text-align:center;
+}
+.team-top p{
+	width:100%;
+}
+.team-bottom{
+	margin-top:3em;
+	text-align:center;
+}
+.team-left h4{
+	color:#000000;
+	font-size:16px;
+	font-weight:600;
+	margin:1.7em 0 0 0;
+}
+.team-left p{
+	color:#666666;
+	font-size:14px;
+	font-weight:400;
+	margin-top:5px;
+}
+.team-left:hover .team-one{
+	display:block;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+.team-one {
+  background: rgba(18,170,235,0.3);//rgba(245,24,24);//#1eabe7;//rgba(197, 178, 87, 0.9);
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: absolute;
+  top: 0px;
+  left: 19.5%;
+  display:none;
+}
+.team-one ul{
+	padding:0;
+	margin-top:45%;
+}
+.team-one ul li{
+	list-style:none;
+	display:inline-block;
+	margin:0 3px;
+}
+/*--end-team--*/
+
+/*--start-skill--*/
+.skills {
+  	//background: url(../images1/skill-banner.jpg) no-repeat center top;
+  	//-webkit-background-size: cover;
+  	//-moz-background-size: cover;
+  	//-o-background-size: cover;
+  	//-ms-background-size: cover;
+  	//background-size: cover;
+  	min-height:450px;
+}
+.skill-top{
+	text-align:center;
+	margin-top:3em;
+}
+.skill-bottom{
+	margin-top:2em;
+}
+.skill-left p {
+  	color: #666666;
+  	font-size: 17px;
+  	font-weight: 400;
+  	line-height: 1.5em;
+  	width: 84%;
+}
+.skill-btn {
+  	margin-top: 3.8em;
+}
+.skill-btn a{
+  	color: #f51818;
+  	font-weight: 400;
+  	font-size: 15px;
+  	letter-spacing: 1px;
+  	border:1px solid #f51818;
+  	padding: 12px 1.8em;
+  	text-decoration: none;
+  	border-radius: 0.3em;
+  	-webkit-border-radius: 0.3em;
+  	-moz-border-radius: 0.3em;
+  	-o-border-radius: 0.3em;
+  	-ms-border-radius: 0.3em;
+}
+
+/* Bounce To Right */
+.hvr-bounce-to-right {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-to-right:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color:#fff;
+  background: #1eabe7;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-bounce-to-right:hover, .hvr-bounce-to-right:focus, .hvr-bounce-to-right:active {
+  color: white;
+}
+.hvr-bounce-to-right:hover:before, .hvr-bounce-to-right:focus:before, .hvr-bounce-to-right:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+.skill > div {
+  height: 100%;
+  display: block;
+ // background-color:rgba(245,24,24,0.9);// #c5b257;
+}
+.skill {
+  width: 72%;
+  margin: 7px 0 0 0;
+  height: 12px;
+ // background:rgba(18,170,235,0.5);// #DAE5EB;
+  float: right;
+}
+.percent {
+  	text-align: right;
+  	position: absolute;
+}
+.percent1 {
+	top: -13px;
+  	right: 8%;
+}
+.percent2 {
+  top: 45px;
+  right:14%;
+}
+.percent3 {
+  top: 103px;
+  right: 18%;
+}
+.percent4 {
+  top: 161px;
+  right: 3.8%;
+}
+.skill-one {
+  margin-top: 2.3em;
+}
+.skill-one:nth-child(1){
+	margin-top:0;
+}
+.skill-right {
+  position: relative;
+}
+.percent h5{
+	color:#000000;
+	font-size:17px;
+	font-weight:600;
+	margin: 0;
+}
+.des {
+  float: left;
+  width: 14%;
+  text-align: right;
+}
+.des p{
+	color:#000000;
+	font-size:17px;
+	font-weight:400;
+}
+/*--end-skill--*/
+
+
+.skill-right,.skill-left {
+  width: 50%;
+  float: left;
+}
+.skill-left p {
+  font-size: 15px;
+  width: 100%;
+}
+.skill {
+  width: 75%;
+  height: 10px;
+}
